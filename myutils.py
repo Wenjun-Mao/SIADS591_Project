@@ -168,7 +168,7 @@ def draw_graph(df, x, y1, y2, title, days=7):
     fig.update_yaxes(title_text = 'Deaths', title_font = dict(color = colors['death']), secondary_y = True,
                     nticks = 5, tickfont = dict(color = colors['death']), linewidth = 2, linecolor = 'black',
                     gridcolor = 'darkgray', zeroline = False)
-    fig.update_layout(title = title, height = 400, width = 700, 
+    fig.update_layout(title = title, height = 400, width = 800, 
                      margin = dict(l=0,r=0,t=60,b=30),hovermode='x',
                       legend=dict(x=0.01,y=0.99,bordercolor='black',borderwidth=1,bgcolor='#EED8E4',
                                   font=dict(family='arial',size=10)),
